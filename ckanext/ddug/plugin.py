@@ -14,5 +14,15 @@ class DdugPlugin(plugins.SingletonPlugin):
         toolkit.add_resource('fanstatic', 'ddug')
 
     def after_map(self, m):
-        m.connect('feedbackProv1', '/feedbackProv1', controller='ckanext.ddug.controller:DdugController', action='feedbackProv1')
+        m.connect('feedbackProv1',
+                  '/feedbackProv1',
+                  controller='ckanext.ddug.controllers:DdugController',
+                  action='feedbackProv1')
+        return m
+    def before_map(self, m):
+
+        m.connect('oauth2provider_authorize',
+                  '/oauth2/authorize',
+                  controller='ckanext.ddug.controllers:DdugTokenController',
+                  action='authorize')
         return m

@@ -1,0 +1,60 @@
+Babel==0.9.6
+Beaker==1.7.0
+bleach==1.4.3
+-e git+https://github.com/ckan/ckan.git@0dfa2df5ea401ab8bf1e40668fb571304c7c32db#egg=ckan
+-e git+https://github.com/datadotug/ckanext-ddug.git@1bd0e0faf7e15ffd43757b9628d751dd6c38a6e8#egg=ckanext_ddug
+-e git+https://github.com/datadotug/ckanext-ddugtheme.git@b85c52b303faf4664ce53865675c34cb3e8cb491#egg=ckanext_ddugtheme
+-e git+https://github.com/maulikkamdar/ckanext-feedback.git@ecf4564474642925b08901fbb147196f1ad7b702#egg=ckanext_feedback
+-e git+https://github.com/ckan/ckanext-issues.git@1a91e25bff2d10b320d55332a721106190069aae#egg=ckanext_issues
+-e git+https://github.com/DataDotUG/ckanext-oauth2provider.git@57b41f39c148f487ac55e8a7a466e59fab6466de#egg=ckanext_oauth2provider
+-e git+https://github.com/jqnatividad/ckanext-officedocs.git@23137cacbca96582719bff4bb3c74b7c800012ee#egg=ckanext_officedocs
+-e git+https://github.com/ckan/ckanext-pages.git@dbb3399d6143d67b46d346fcddd858e6a4cd44a0#egg=ckanext_pages
+-e git+https://github.com/ckan/ckanext-pdfview.git@99c48f31d72c554a9b5d83f41192337fb8328215#egg=ckanext_pdfview
+decorator==4.0.4
+enum34==1.1.6
+fanstatic==0.12
+FormEncode==1.3.0
+Genshi==0.6
+html5lib==0.9999999
+httplib2==0.9.2
+Jinja2==2.6
+Mako==1.0.2
+Markdown==2.4
+MarkupSafe==0.23
+nose==1.3.7
+oauth2==1.9.0.post1
+ofs==0.4.1
+ordereddict==1.1
+Pairtree===0.7.1-T
+passlib==1.6.2
+Paste==1.7.5.1
+PasteDeploy==1.5.2
+PasteScript==2.0.2
+pbr==0.11.0
+psycopg2==2.4.5
+Pygments==2.0.2
+Pylons==0.9.7
+python-dateutil==1.5
+pytz===2012j
+pyutilib.component.core==4.5.3
+repoze.lru==0.6
+repoze.who==2.0
+repoze.who-friendlyform==1.0.8
+requests==2.7.0
+Routes==1.13
+shortuuid==0.4.3
+simplejson==3.3.1
+six==1.10.0
+solrpy==0.9.5
+SQLAlchemy==0.9.6
+sqlalchemy-migrate==0.9.1
+sqlparse==0.1.11
+Tempita==0.5.2
+tzlocal==1.2
+unicodecsv==0.14.1
+vdm==0.13
+WebError==0.11
+WebHelpers==1.3
+WebOb==1.0.8
+WebTest==1.4.3
+zope.interface==4.1.1
