@@ -1,6 +1,6 @@
 Babel==0.9.6
 Beaker==1.7.0
-bleach==1.4.3
+bleach==3.3.0
 -e git+https://github.com/ckan/ckan.git@0dfa2df5ea401ab8bf1e40668fb571304c7c32db#egg=ckan
 -e git+https://github.com/datadotug/ckanext-ddug.git@1bd0e0faf7e15ffd43757b9628d751dd6c38a6e8#egg=ckanext_ddug
 -e git+https://github.com/datadotug/ckanext-ddugtheme.git@b85c52b303faf4664ce53865675c34cb3e8cb491#egg=ckanext_ddugtheme
